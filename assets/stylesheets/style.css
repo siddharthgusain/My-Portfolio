@@ -51,3 +51,10 @@ html,body{
   letter-spacing: 1rem;
 }
 
+.section{
+  padding: 100px 0;
+}
+
+.about-img{
+  max-width: 100%;
+}
