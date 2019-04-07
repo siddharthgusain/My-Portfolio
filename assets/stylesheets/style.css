@@ -1,27 +1,35 @@
-/*  body{ 
-    margin: 0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html,body{ 
+	width:100%;
+  height:100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#particles-js{
+    width: 100%;
     height: 100vh;
+    background-color: rgb(255, 255, 255);
 }
 
-.overlay{
-    width:100%;
-    height: 100%;
-    position: absolute;
-    z-index:3;
-    background: rgba(0,0,0,0.4);
+.title-msg{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top:50%;
+  text-align: center;
+  margin-top: -125px;
+  color:rgb(2, 2, 2);
 }
 
-.slides-container img{
-    background-size: cover;
-} 
-
-.slides-navigation a i{
-    opacity: 0.7;
-    color:rgba(255, 255, 255, 0.87);
+.title-msg .heading .main{
+  text-shadow:0px 2px 5px rgba(0,0,0,0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
+  font-size: 3rem;
 }
 
-.slides-navigation a i:hover{
-    transform: scale(1.5);
-} */
+.title-msg .heading .sub{
+  font-size:2rem;
+}
 
