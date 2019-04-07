@@ -95,12 +95,12 @@ html,body{
 }
 
 .chart .percent{
-  color:#000;
+  color:#2ecc71;
   line-height:152px;
   display: inline-block;
   font-size:35px;
 }
 
 .chart .percent:after{
-  content:""
+  content:"%"
 }
