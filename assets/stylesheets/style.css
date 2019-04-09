@@ -151,7 +151,7 @@ html,body{
   margin-top: 20px;
   border:1px solid silver;
   border-radius: 5px;
-  background: #2980b9
+  background: #2980b9;
 }
 
 .contact-button:hover{
@@ -206,7 +206,7 @@ html,body{
 #contact-me-section .info-list-1 ul li:hover{
   transform: scale(1.1);
   transition: 0.2s;
-  background: #0ABDE3;
+  background: #1287A5;
 }
 
 #contact-me-section .info-list-1 ul li a{
