@@ -16,6 +16,10 @@ html,body{
     
 }
 
+#about,#skills,#contact-me-section{
+  height: 100vh;
+}
+
 .title-msg{
   position: absolute;
   width: 100%;
@@ -39,9 +43,36 @@ html,body{
   letter-spacing: 1rem;
 }
 
+#navigation{
+  background: black;
+  padding: 10px 10px;
+  z-index:100;
+  width:100%;
+}
+
+#navigation li{
+  padding: 0 10px;
+}
+
+.fixed-nav #navigation{
+  position: fixed;
+  top:0;
+}
+
+#navigation li a{
+  color:white;
+  font-weight: bold;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+  color:#2ecc72;
+  font-size: 2em;
+}
+
+
 .section{
   padding: 100px 0;
-
 }
 
 .about-img{
@@ -109,6 +140,10 @@ html,body{
   transform: scale(1.2);
 }
 
+#contact div p{
+  font-size: 1.5em;
+}
+
 .contact-button{
   color:#ecf0f1;
   padding: 15px 20px;
@@ -133,11 +168,11 @@ html,body{
 
 #contact-me-section h1{
   margin-bottom: 5%;
-  
+  margin-top:30px;
 } 
 
 #contact-me-section h1:hover{
-  transform: scale(1.7);
+  transform: scale(1.8);
   transition: 0.2s;
 }
 
@@ -160,12 +195,12 @@ html,body{
   font-size: 0.9em;
   font-weight:500;
   margin-bottom: 0.65em;
-  color: #0c253b;
   letter-spacing: 1px;
   text-align: left;
   letter-spacing: 2px;
   padding: 1.2em 1em;
   box-shadow: -3px 7px 39px -5px rgba(0, 0, 0, 0.38);
+  border-radius: 50px;
 }
 
 #contact-me-section .info-list-1 ul li:hover{
@@ -177,6 +212,7 @@ html,body{
 #contact-me-section .info-list-1 ul li a{
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #contact-me-section .info-list-1 ul li i{
@@ -209,3 +245,4 @@ html,body{
   color: #67E6DC;
   padding-left: 0.5%; 
 }
+
