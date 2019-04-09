@@ -104,3 +104,108 @@ html,body{
 .chart .percent:after{
   content:"%"
 }
+
+#contact div h1:hover{
+  transform: scale(1.2);
+}
+
+.contact-button{
+  color:#ecf0f1;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border:1px solid silver;
+  border-radius: 5px;
+  background: #2980b9
+}
+
+.contact-button:hover{
+  text-decoration: none;
+  color:black;
+  background: #00cec9;
+}
+ 
+#contact-me-section{
+  margin-top: 6%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#contact-me-section h1{
+  margin-bottom: 5%;
+  
+} 
+
+#contact-me-section h1:hover{
+  transform: scale(1.7);
+  transition: 0.2s;
+}
+
+#contact-me-section p{
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 1.2em 1em;
+  box-shadow: -3px 7px 39px -5px rgba(0, 0, 0, 0.38);
+}
+
+#contact-me-section .info-list-1 ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#contact-me-section .info-list-1 ul li{
+  font-size: 0.9em;
+  font-weight:500;
+  margin-bottom: 0.65em;
+  color: #0c253b;
+  letter-spacing: 1px;
+  text-align: left;
+  letter-spacing: 2px;
+  padding: 1.2em 1em;
+  box-shadow: -3px 7px 39px -5px rgba(0, 0, 0, 0.38);
+}
+
+#contact-me-section .info-list-1 ul li:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  background: #0ABDE3;
+}
+
+#contact-me-section .info-list-1 ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+#contact-me-section .info-list-1 ul li i{
+  margin-right: 6%;
+}
+
+#contact-me-section iframe{
+  box-shadow: -3px 7px 39px -5px rgba(0, 0, 0, 0.38);
+}
+
+#contact-me-section iframe:hover{
+  transform: scale(1.08);
+  transition: 0.2s;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  min-height: 55px;
+}
+
+#footer p{
+  margin-top: 1%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#name{
+  color: #67E6DC;
+  padding-left: 0.5%; 
+}
