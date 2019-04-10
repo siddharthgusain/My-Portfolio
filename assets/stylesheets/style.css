@@ -160,23 +160,6 @@ html,body{
   background: #00cec9;
 }
 
-#portfolio{
-  background:#1287A5;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  height: 100vh;
-}
-
-#portfolio h1,
-#portfolio p{
-  text-align: center;
-  color:white;
-}
-
-#portfolio h1{
-  font-weight: bold;
-}
-
 #contact-me-section{
   margin-top: 2%;
   text-align: center;

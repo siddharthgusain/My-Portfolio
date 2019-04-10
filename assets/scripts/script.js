@@ -71,5 +71,7 @@ $(document).ready(function(){
             body.removeClass("fixed-nav");
         }
     }
+
+    
 });
 
