@@ -1,5 +1,13 @@
+
+// Loader
+$(window).on("load",function(){
+    $(".loader-container .loader").fadeOut(5000,function(){
+        $(".loader-container").fadeOut(5100);
+    });
+});
+
 $(document).ready(function(){
-  
+    
     //loading type.js
     var typed=new Typed(".typed",{
         strings:["Web Developer.","Student."],
