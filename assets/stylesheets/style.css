@@ -159,9 +159,24 @@ html,body{
   color:black;
   background: #00cec9;
 }
- 
+
+#portfolio{
+  background:#1287A5;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#portfolio h1,p{
+  text-align: center;
+  color:white;
+}
+
+#portfolio h1{
+  font-weight: bold;
+}
+
 #contact-me-section{
-  margin-top: 6%;
+  margin-top: 2%;
   text-align: center;
   margin-bottom: 5%;
 }
