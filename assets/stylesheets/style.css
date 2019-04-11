@@ -181,9 +181,6 @@ html,body{
   font-size: 1.3em;
 }
 /* skills section styles */
-#skills{
-  height: 100vh;
-}
 .skills-section{
   background-color: #1287A5;
   color:white;
