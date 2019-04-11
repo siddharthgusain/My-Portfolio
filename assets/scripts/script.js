@@ -1,8 +1,8 @@
 
 // Loader
 $(window).on("load",function(){
-    $(".loader-container .loader").fadeOut(4500,function(){
-        $(".loader-container").fadeOut(5600);
+    $(".loader-container .loader").fadeOut(500,function(){
+        $(".loader-container").fadeOut(500);
     });
 });
 
