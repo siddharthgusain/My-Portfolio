@@ -215,6 +215,10 @@ html,body{
   background: #1287A5;
   padding: 50px;
 }
+.portfolio-title:hover{
+  transform: scale(1.5);
+  transition: 0.5s;
+}
 .card{
   height:300px;
   background:rgb(12, 12, 12);
