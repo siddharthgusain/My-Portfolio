@@ -212,6 +212,75 @@ html,body{
 .chart .percent:after{
   content:"%"
 }
+/* portfolio section  styles */
+#portfolio{
+  background: #1287A5;
+  padding: 50px;
+}
+.card{
+  height:300px;
+  background:rgb(12, 12, 12);
+  overflow: hidden;
+  box-shadow: 0 5px 10px;
+}
+.card .project-image{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.card:hover .project-image:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg,#000 50%,transparent);
+  transition: 0.5s;
+  z-index:1;
+}
+.card .project-image img{
+  width:100%; 
+  height: 100%;  
+  background-size: cover; 
+}
+.card:hover .project-image img{
+  filter: blur(4px);
+}
+.project-details{
+  position: absolute;
+  padding:20px;
+  width:100%;
+  height:75%;
+  left:0;
+  bottom:-195px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  z-index:2;
+}
+.card:hover .project-details{
+  bottom: 0;
+}
+.project-details h1{
+  color:#EEC213;
+  margin: 0;
+  padding:0;
+  font-size: 1.5rem;
+}
+.project-details h2{
+  color:rgb(63, 190, 112);
+  font-size: 1.2rem;
+}
+.project-tech-stack{
+  position: relative;
+  padding: 5px 0;
+}
+.project-tech-stack h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  color:white;
+}
 /* contact section styles */
 #contact div h1:hover{
   transform: scale(1.2);
