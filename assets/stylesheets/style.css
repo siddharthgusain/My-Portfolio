@@ -174,7 +174,9 @@ html,body{
   padding :5px;
 }
 .text-shadow{
-  text-shadow: 1px 1px grey;
+  text-shadow: 2px 2px grey;
+  color: #192A56;
+  font-weight: bold;
 }
 .about-description {
   font-size: 1.3em;
