@@ -323,7 +323,7 @@ html,body{
   margin-top:30px;
 } 
 #contact-me-section h1:hover{
-  transform: scale(1.8);
+  transform: scale(1.2);
   transition: 0.2s;
 }
 #contact-me-section p{
