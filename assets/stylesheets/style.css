@@ -134,6 +134,7 @@ html,body{
   font-size:2rem;
   letter-spacing: 1rem;
 }
+/* navigation bar styles */
 #navigation{
   background: black;
   padding: 10px 10px;
@@ -150,6 +151,9 @@ html,body{
 #navigation li a{
   color:white;
   font-weight: bold;
+}
+#navigation li a:hover{
+  color:#2ecc72;
 }
 .navbar-brand,
 .navbar-brand:hover{
