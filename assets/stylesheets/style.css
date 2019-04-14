@@ -354,7 +354,27 @@ html,body{
 #contact-me-section .info-list-1 ul li:hover{
   transform: scale(1.1);
   transition: 0.2s;
-  background: #1287A5;
+}
+.li-hover li:nth-child(1):hover{
+  background: #4DBFA5;
+}
+.li-hover li:nth-child(2):hover{
+  background: #0A79DF;
+}
+.li-hover li:nth-child(3):hover{
+  background: #BB473D;
+}
+.li-hover li:nth-child(4):hover{
+  background:#2187A5;
+}
+.li-hover li:nth-child(5):hover{
+  background:#24292E;
+}
+.li-hover li:nth-child(6):hover{
+  background:#1EA1F2;
+}
+.li-hover li:nth-child(7):hover{
+  background:#0077B5;
 }
 #contact-me-section .info-list-1 ul li a{
   color: black;
