@@ -145,7 +145,7 @@ html,body{
   position: absolute;
   top:0;
   left:0;
-  background: url('/assets/images/sid.jpg');
+  background: url('/assets/images/main-image.jpg');
   background-size: cover;
   z-index:-2;
 }
