@@ -139,13 +139,13 @@ html,body{
   font-size:2rem;
   letter-spacing: 1rem;
 }
-.hacker-img{
+.main-img{
   height: 100%;
   width: 100%;
   position: absolute;
   top:0;
   left:0;
-  background: url('/assets/images/hacker.jpg');
+  background: url('');
   background-size: cover;
   z-index:-2;
 }
