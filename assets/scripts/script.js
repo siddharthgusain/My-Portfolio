@@ -1,4 +1,7 @@
-
+/*
+All copyright reserved
+creadted by: SIDDHARTH GUSAIN
+*/
 // Loader
 $(window).on("load",function(){
     $(".loader-container .loader").fadeOut(3500,function(){
