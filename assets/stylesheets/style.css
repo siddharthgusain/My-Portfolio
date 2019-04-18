@@ -310,9 +310,6 @@ html,body{
   color:white;
 }
 /* contact section styles */
-#contact div h1:hover{
-  transform: scale(1.2);
-}
 #contact div p{
   font-size: 1.5em;
 }
