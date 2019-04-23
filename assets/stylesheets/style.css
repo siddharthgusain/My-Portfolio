@@ -12,6 +12,21 @@ html,body{
   font-family:'Dosis', sans-serif;
   font-size:1rem;
 }
+/* Scroll bar styles */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #616C6F;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2C3335;
+}
 /* Preloader styles */
 .loader-container {
   height: 100%;
